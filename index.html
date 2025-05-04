@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - Vegamart</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9fdfb;
+      color: #1b4332;
+      scroll-behavior: smooth;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem 2rem;
+      background-color: #2d6a4f;
+      color: white;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+    }
+
+    header {
+      background-color: #d8f3dc;
+      text-align: center;
+      padding: 3rem 2rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #40916c;
+    }
+
+    .content {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+      line-height: 1.7;
+    }
+
+    .content h2 {
+      color: #2d6a4f;
+      margin-bottom: 1rem;
+    }
+
+    .content p {
+      margin-bottom: 1.5rem;
+    }
+
+    .highlights {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+
+    .highlight {
+      background: white;
+      border: 1px solid #cce3de;
+      border-radius: 10px;
+      padding: 1.5rem;
+      width: 250px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+    }
+
+    .highlight:hover {
+      transform: translateY(-5px);
+    }
+
+    .highlight h3 {
+      color: #40916c;
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      background: #2d6a4f;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 4rem;
+    }
+
+    footer a {
+      color: #b7e4c7;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .highlights {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">🌿 Vegamart</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="mission.html">Mission</a></li>
+      <li><a href="vision.html">Vision</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>About Vegamart</h1>
+    <p>Fresh. Ethical. Delicious. 100% Vegan.</p>
+  </header>
+
+  <div class="content">
+    <h2>Who We Are</h2>
+    <p>Vegamart is a trailblazing vegan food mart dedicated to making plant-based living simple, accessible, and rewarding. With a curated selection of fresh produce, ethical products, and organic groceries, we empower people to live healthier lives while making a positive impact on the planet.</p>
+
+    <h2>Why Choose Us?</h2>
+    <div class="highlights">
+      <div class="highlight">
+        <h3>🌱 Plant-Based Only</h3>
+        <p>No animal products—ever. We offer purely vegan groceries that you can trust.</p>
+      </div>
+      <div class="highlight">
+        <h3>🌍 Sustainability First</h3>
+        <p>We partner with local and ethical suppliers to reduce waste and carbon emissions.</p>
+      </div>
+      <div class="highlight">
+        <h3>😋 Taste Meets Health</h3>
+        <p>From snacks to staples, everything is both nutritious and delicious.</p>
+      </div>
+      <div class="highlight">
+        <h3>🛒 Modern Experience</h3>
+        <p>Shop in-store or online with smart recommendations and fast delivery.</p>
+      </div>
+    </div>
+
+    <h2>Our Mission & Vision</h2>
+    <p>Our mission is to support healthier lifestyles and a greener planet through ethical, affordable, and tasty vegan food. We envision a future where plant-based living is mainstream, enjoyable, and effortless.</p>
+  </div>
+
+  <footer id="contact">
+    <p>Contact: Vaishnavi Gavade | 📞 123456789 |✉️ <a href="mailto:vegamart123@gmail.com">vegamart123@gmail.com</a></p>
+    <p>Visit us: <a href="http://www.vegamart.in" target="_blank">www.vegamart.in</a></p>
+    <p>Join the Vegan Revolution with Vegamart!</p>
+  </footer>
+</body>
+</html>
